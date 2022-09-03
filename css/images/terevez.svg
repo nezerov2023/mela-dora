@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 374 274" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" x="0" y="0" width="374" height="274" filterUnits="userSpaceOnUse">
+<feOffset dx="3" dy="6" input="SourceAlpha"/>
+<feGaussianBlur result="blur" stdDeviation="4"/>
+<feFlood flood-opacity=".078"/>
+<feComposite in2="blur" operator="in"/>
+<feComposite in="SourceGraphic"/>
+</filter>
+</defs>
+<g filter="url(#a)">
+<rect transform="translate(9 6)" width="350" height="250" fill="#91b40d" data-name="Rectangle 30"/>
+</g>
+</svg>

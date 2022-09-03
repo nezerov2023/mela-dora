@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+#bag2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#bag1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.col-md-2{
+    width: 100%;
+}
+#g1{
+    margin-top: 20px;
+  
+}
+#g2{
+    margin-top: 20px;
+}
+#g3{
+    margin-top: 20px;
+}
+#g4{
+    margin-top: 20px;
+}
+#blog2{
+    margin-top: 20px;
+}
+#b2{
+    margin-top: 20px;
+}
+#img2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.p p{
+    width: 100%;
+}
+.col-lg-2{
+    width: 60%;
+    margin: 20px;
+    }
+}

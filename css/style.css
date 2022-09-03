@@ -1,0 +1,719 @@
+:root {
+  /* Design colors */
+  --primary-design-color: #1A5221;
+  --secondary-design-color: #91B40D;
+  --tertiary-design-color: #FFBF00;
+  /* Text colors */
+  --primary-text-color: #2e2020;
+  --secondary-text-color: #FFFFFF;
+  --tertiary-text-color: #918F8F;
+  /* Background colors */
+  --primary-bg-color: #FFFFFF;
+  --secondry-bg-color: #F3F3F3;
+  /* Special font sizes */
+  --page-heading: 48px;
+  --section-heading: 36px;
+  --block-heading-xl: 32px;
+  --block-heading-lg: 30px;
+  --block-heading-md: 25px;
+  --block-heading-sm: 22px;
+  /* General font sizes */
+  --font-size-xs: 15px;
+  --font-size-sm: 16px;
+  --font-size-md: 17px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  /* Font families */
+  --primary-font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+header {
+  width: 100%;
+  position: absolute;
+}
+
+.banner {
+  width: 100%;
+  height: 550px;
+}
+
+.back {
+  background: linear-gradient(to right, rgba(14, 13, 13, 0.788), rgba(10, 10, 10, 0.253)), url("images/home-banner-1.jpg") no-repeat fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.sosial {
+  border-bottom: 1px solid white;
+}
+
+
+.sosial ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sosial ul li {
+  margin: 8px;
+}
+
+.sosial ul li a {
+  font-size: 17px;
+  color: yellowgreen;
+  transition: 200ms;
+}
+
+.sosial ul li a:hover {
+  color: white;
+  transition: 200ms;
+}
+
+.sosial ul select {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.sosial ul select option {
+  color: black;
+  cursor: pointer;
+}
+
+.sosial ul select option:hover {
+  color: goldenrod;
+}
+
+.number {
+  margin-top: -50px;
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 0;
+
+}
+
+.number ul {
+  list-style: none;
+}
+
+.number ul li a {
+  font-size: 14px;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.number ul li a:hover {
+  color: yellowgreen;
+  transition: 500ms;
+}
+
+.number ul li a i {
+  color: yellowgreen;
+
+}
+
+.navbar {
+  width: 100%;
+  background-color: #1A5221;
+  margin: 0;
+  padding: 0;
+  border-bottom: 4px solid #FFBF00;
+  height: 80px;
+
+}
+
+.container-fluid ul li a {
+  color: white;
+}
+
+nav {
+  margin-top: 10px;
+  margin-left: 15px;
+  float: right;
+}
+
+.container-fluid ul li a {
+  font-size: 17px;
+  font-family: 'Cormorant Garamond', serif;
+  transition: 500ms;
+}
+
+.container-fluid ul li :hover {
+  border-bottom: 1px solid yellowgreen;
+}
+
+.container-fluid ul li a:hover {
+  color: yellowgreen;
+  transition: 500ms;
+}
+
+.container-fluid ul li {
+  margin-left: 20px;
+}
+
+.container-fluid ul li a i {
+  color: white;
+}
+
+.container-fluid ul li a i:hover {
+  color: yellowgreen;
+}
+
+.logo {
+  margin-top: 25px;
+}
+.swiper{
+  height: 300px;
+}
+#con3{
+  background-color: #F3F3F3;
+
+}
+#bizkim{
+width: 100%;
+}
+.col-md-8 h1 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  color: rgb(68, 34, 34);
+}
+
+.col-md-8 p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+#pic{
+  background-image: url(images/pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+::selection {
+  background-color: #FFBF00;
+  color: white;
+}
+
+.row h1 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  margin-top: 50px;
+}
+
+.col-lg-3 {
+  margin: 40px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+#n {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#n ul {
+  display: flex;
+  justify-content: center;
+}
+#n ul li a{
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  transition: 500ms;
+}
+
+
+
+#n ul li a:hover {
+  color: #91B40D;
+  transition: 500ms;
+}
+
+#n ul li a:active {
+  color: #91B40D;
+}
+
+.col-lg-2 {
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 400ms;
+  transition: transform .5s;
+  /* Animation */
+  margin: 0 auto;
+}
+
+.col-lg-2:hover {
+  box-shadow: 3px 3px 9px rgb(206, 199, 199);
+  transition: 400ms;
+  transform: scale(1.1);
+}
+
+
+
+.col-lg-3 h1 {
+  font-size: 80px;
+  color: gray;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: start;
+}
+
+.col-lg-3 h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.col-lg-3 p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.col-lg-4 h1 {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+.col-lg-4 p {
+  font-size: 17px;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+.col-lg-4 img{
+  width: 100%;
+  height: 250px;
+  transition: transform .5s; /* Animation */
+  margin: 0 auto;
+  cursor: pointer;
+}
+.col-lg-4 h6,p{
+  font-family: 'Cormorant Garamond', serif;
+}
+.col-lg-4 h6{
+  font-weight: bold;
+  margin-top: 15px;
+}
+.col-lg-4 img:hover{
+  transform: scale(1.1); 
+}
+#bc{
+  margin-top: 25px;
+}
+.bloglar{
+  width: 100%;
+  height: 100%  ;
+}
+.copyright h4 {
+  color: white;
+  font-size: 17px; 
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.col-lg-2 h1 {
+  color: gray;
+  font-size: 100px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.container-fluid button span {
+  color: white;
+}
+
+.t {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  width: 100%;
+
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.swiper-wrapper{
+height: 300px;
+width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.col-lg-4 h3 {
+  font-weight: bold;
+}
+
+.col-md-3 img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.col-md-3 h1 {
+  text-align: center;
+}
+
+.col-md-3 h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+
+
+}
+
+.col-md-3 ul li a {
+  color: white;
+  transition: 500ms;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.col-md-3 ul li a:hover {
+  color: #FFBF00;
+  transition: 500ms;
+}
+
+.col-md-3 ul li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.col-md-4 p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.col-md-4 h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+.col-md-4 h4 {
+  font-family: 'Cormorant Garamond', serif;
+  color: gray;
+  font-size: 70px;
+}
+
+.copyright {
+  width: 100%;
+  border-top: 1px solid white; 
+  margin-top: 10px;
+}
+
+.copyright h6 {
+  color: white;
+  font-size: 17px;
+  margin-top: 15px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.preloader {
+  background: url(images/prelader.svg) no-repeat center center;
+  background-size: 15%;
+  width: 100%;
+  height: 100vh;
+}
+
+.swipper-slide {
+  height: 250px;
+}
+
+.menubar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.menubar ul li a {
+  color: white;
+  transition: 400ms;
+}
+
+.nav-link:hover {
+  color: #FFBF00;
+  transition: 400ms;
+}
+
+.nb {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nb ul li a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  transition: 500ms;
+}
+
+.nb ul li a:hover {
+  color: #4ca800;
+  transition: 500ms;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+
+}
+
+.row h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+
+
+.col-2 {
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 400ms;
+  transition: transform .5s;
+  /* Animation */
+  margin: 0 auto;
+
+}
+
+.col-2:hover {
+  box-shadow: 3px 3px 8px rgb(231, 226, 226);
+  transition: 400ms;
+  transform: scale(1.1);
+  background-color: white;
+
+
+}
+
+.col-2 img {
+  margin-left: 30px;
+}
+
+.nb .visited {
+  color: #4ca800;
+}
+
+
+
+
+.carousel {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.meyve {
+  width: 320px;
+  height: 250px;
+  background-color: #1A5221;
+  cursor: pointer;
+
+}
+
+.meyve img {
+  margin-top: -30px;
+  margin-left: 120px;
+
+
+}
+
+.terevez {
+  width: 320px;
+  height: 250px;
+  background-color: #91B40D;
+  cursor: pointer;
+
+}
+
+.terevez img {
+  margin-top: -10px;
+  margin-left: 120px;
+}
+
+.meyve h2 {
+  margin: 20px;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+.terevez h2 {
+  margin: 20px;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+.taxil {
+  width: 320px;
+  height: 250px;
+  background-color: #FFBF00;
+  cursor: pointer;
+}
+
+.meyve a {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.terevez a {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.taxil a {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.swipper-slide {
+  width: 100%;
+}
+
+.taxil img {
+  margin-top: -10px;
+  margin-left: 120px;
+}
+
+.taxil h2 {
+  margin: 20px;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+.swiper {
+  width: 85%;
+  margin-top: -155px;
+  display: flex;
+  justify-content: center;
+}
+
+.meyve a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.terevez a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.taxil a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.meyve a:hover {
+  color: whitesmoke;
+}
+
+.terevez a:hover {
+  color: whitesmoke;
+}
+
+.taxil a:hover {
+  color: whitesmoke;
+}
+
+.c h6 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.c p {
+  color: #4ca800;
+  font-weight: bold;
+}
+
+.c:hover {
+  box-shadow: 3px 3px 8px rgb(161, 156, 156);
+  transition: 400ms;
+}
+
+.c {
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.row {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+footer {
+  padding-top: 300px;
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+.col-md-2 h1{
+  color: white;
+  font-size: 27px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.col-md-2 ul li a{
+color: white;
+font-family: 'Cormorant Garamond', serif;
+}
+.col-md-2{
+  width: 25%;
+}
+#log img{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.d{
+  display: flex;
+  justify-content: flex-end;
+}
+.d img{
+  width: 30%;
+}
+.m{
+  display: flex;
+  justify-content: flex-start;
+}
+.m img{
+  width: 30%;
+}
+.navbar-toggler-icon i{
+  color: white;
+}
